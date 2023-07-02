@@ -1,6 +1,6 @@
 {
   "name": "gitlab-bookmarks",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Generate bookmarks for all projects in your GitLab groups",
   "scripts": {
     "lint": "eslint \"./**/**.{mjs,js}\"",
@@ -10,7 +10,10 @@
   "bin": {
     "gitlab-bookmarks": "./bin/gitlab-bookmarks.mjs"
   },
-  "keywords": ["GitLab", "bookmarks"],
+  "keywords": [
+    "GitLab",
+    "bookmarks"
+  ],
   "author": "PierreDemailly <pierredemailly.pro@gmail.com>",
   "license": "MIT",
   "type": "module",
