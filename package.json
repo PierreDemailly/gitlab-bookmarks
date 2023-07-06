@@ -20,13 +20,13 @@
   "devDependencies": {
     "@nodesecure/eslint-config": "^1.7.0",
     "@release-it/keep-a-changelog": "^3.1.0",
-    "eslint": "^8.43.0",
+    "eslint": "^8.44.0",
     "pkg-ok": "^3.0.0"
   },
   "dependencies": {
     "@myunisoft/httpie": "^1.11.0",
-    "@topcli/prompts": "^1.0.1",
-    "@topcli/spinner": "^2.0.0",
+    "@topcli/prompts": "^1.1.0",
+    "@topcli/spinner": "2.0.0",
     "dotenv": "^16.3.1",
     "pupa": "^3.1.0"
   }

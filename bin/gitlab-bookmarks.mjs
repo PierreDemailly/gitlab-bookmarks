@@ -62,7 +62,7 @@ const template = fs.readFileSync(new URL("../template.html", import.meta.url), "
 const bookmarksRaw = pupa(template, { bookmarks: bookmarks.join(EOL) });
 
 const defaultFilename = `bookmarks-gitlab-${Date.now()}.html`;
-const filename = await question(`Enter the filename (${defaultFilename})`) || defaultFilename;
+const filename = await question("Enter the filename", { defaultValue: defaultFilename });
 const formattedFilename = filename.endsWith(".html") ? filename : `${filename}.html`;
 
 fs.writeFileSync(formattedFilename, bookmarksRaw);
